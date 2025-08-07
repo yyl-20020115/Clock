@@ -1,6 +1,6 @@
 ﻿namespace Clock
 {
-    partial class Form1
+    partial class FormClock
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -38,7 +38,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.FormClock_Load);
             this.ResumeLayout(false);
 
         }
